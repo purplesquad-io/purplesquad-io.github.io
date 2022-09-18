@@ -1,0 +1,13 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+
+site_name: purplesquad
+site_url: https://purplesquad.io/
+
+nav:
+  - Home: index.md
+  - About: about.md
+
+theme:
+  name: material
+  palette:
+    scheme: slate
