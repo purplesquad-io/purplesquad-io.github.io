@@ -1,0 +1,117 @@
+:root{
+    --white: #f9f9f9;
+    --black: #36383F;
+    --gray: #85888C;
+    --main-bg: #252424;
+    --main-bg-dark: #181717;
+    --hero-bg: #333232;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.navbar-area {
+    position: absolute;
+    background-color: transparent;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.navbar-brand img {
+    width: 56px;
+    height: 56px;
+}
+
+.sticky {
+    position: absolute;
+    z-index: 9999;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transition: all .3s;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,.1);
+    background-color: var(--main-bg);
+}
+
+.hero-area {
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+    padding: 200px 0 80px;
+    height: 880px;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../img/purplesquad-bg.svg') center center no-repeat;
+}
+
+.main-area {
+    /*height: 1024px;*/
+    background-color: var(--main-bg);
+}
+
+.footer-area {
+    height: 1024px;
+    background-color: var(--main-bg-dark);
+}
+
+.container {
+    max-width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header-hero-content .text {
+    max-width: 490px;
+    font-size: 16px;
+    padding-top: 40px;
+}
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+    opacity: 0
+}
+
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}

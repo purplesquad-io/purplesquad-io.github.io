@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="203.76mm" height="151.28mm" version="1.1" viewBox="0 0 203.76 151.28" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient4609" x1="98.125" x2="144.41" y1="108.88" y2="108.39" gradientTransform="matrix(1.1821 0 0 1.1596 -11.089 -17.095)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#574d8c" offset="0"/>
+   <stop stop-color="#3b44f6" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient5663" x1="93.493" x2="134.59" y1="57.557" y2="56.094" gradientTransform="matrix(1.1821 0 0 1.1596 -11.089 -17.095)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#574d8c" offset="0"/>
+   <stop stop-color="#ff4848" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient7435" x1="99.433" x2="148.71" y1="49.646" y2="47.949" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#574d8c" offset="0"/>
+   <stop stop-color="#ff4848" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g transform="translate(-4.017 -6.1514)">
+  <circle cx="46.517" cy="75.103" r="38.352" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="8.296" style="paint-order:fill markers stroke"/>
+  <g>
+   <ellipse cx="50.059" cy="72.157" rx="34.286" ry="34.286" fill="#574d8c" style="paint-order:fill markers stroke"/>
+   <path d="m78.224 93.329 79.119 30.051-0.62299-0.16069" fill="#c800ff" stroke="#fff" stroke-width="17"/>
+   <path d="m80.309 62.444 65.352-28.991-0.52366 0.31883" fill="#fff" stroke="#fff" stroke-width="17"/>
+  </g>
+  <g>
+   <g>
+    <ellipse cx="157.27" cy="28.651" rx="20.304" ry="20.304" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.392" style="paint-order:fill markers stroke"/>
+    <ellipse cx="177.78" cy="127.43" rx="27.072" ry="27.072" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="5.856" style="paint-order:fill markers stroke"/>
+    <path d="m78.847 93.49 79.119 30.051-0.62299-0.16069" fill="#c800ff" stroke="url(#linearGradient4609)" stroke-width="11.708"/>
+    <path d="m80.309 62.444 65.352-28.991-0.52366 0.31883" fill="url(#linearGradient7435)" stroke="url(#linearGradient5663)" stroke-width="11.708"/>
+   </g>
+   <g stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="30">
+    <ellipse cx="46.443" cy="75.413" rx="34.286" ry="34.286" fill="none" stroke="#574d8c" stroke-width="11.429" style="paint-order:fill markers stroke"/>
+    <ellipse cx="178.03" cy="127.5" rx="21.569" ry="21.569" fill="#3b44f6" stroke="#3b44f6" stroke-width="11.862" style="paint-order:fill markers stroke"/>
+    <ellipse cx="157.25" cy="28.804" rx="14.218" ry="14.218" fill="#ff4848" stroke="#ff4848" stroke-width="11.564" style="paint-order:fill markers stroke"/>
+   </g>
+  </g>
+ </g>
+</svg>
