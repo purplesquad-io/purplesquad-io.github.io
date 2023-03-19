@@ -91,3 +91,20 @@
     margin-right: 45px;
     position: relative;
 }
+
+.navbar {
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.navbar-scrolled {
+    background-color: var(--nav-bg);
+}
+
+a {
+    text-decoration: none;
+}
+
+.button-bigpad {
+    padding: 20px;
+}

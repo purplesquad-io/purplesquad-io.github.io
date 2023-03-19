@@ -5,17 +5,18 @@
     --main-bg: #252424;
     --main-bg-dark: #181717;
     --hero-bg: #333232;
+    --nav-bg: #392f6e;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'RobotoCondensed-Regular', sans-serif;
 }
 
+
 .header {
-    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -50,18 +51,42 @@
     color: #fff;
     overflow: hidden;
     position: relative;
-    padding: 200px 0 80px;
-    height: 880px;
+    padding: 130px 0 80px;
+    height: 500px;
     background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../img/purplesquad-bg.svg') center center no-repeat;
 }
 
+.float-right {
+    float: right;
+    clear: right;
+}
+
+.heading {
+    font-size: 32px;
+}
+
+.subheading {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.hero-button {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
 .main-area {
-    /*height: 1024px;*/
     background-color: var(--main-bg);
+    height: 400px;
 }
 
 .footer-area {
-    height: 1024px;
+    /*height: 400px;*/
     background-color: var(--main-bg-dark);
 }
 
